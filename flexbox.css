@@ -76,7 +76,6 @@ section p, h3 {
 .navigation a, p {
   text-decoration: none;
   display: block;
-  font-size: 100%;
 }
 
 .navigation a {
@@ -121,6 +120,10 @@ section p, h3 {
   }
 }
 
+.footer-font a {
+  font-size: 80%;
+}
+
 .figure-section {
   display: -webkit-flex;
   display: flex;
@@ -148,4 +151,23 @@ section p, h3 {
 .slider > img {
   width: 40vw;
   height: auto;
+}
+
+.form-section {
+  overflow: auto;
+  background: white;
+}
+
+#submitted {
+  color: #7CFC00;
+}
+
+#short_explanation {
+  color: red;
+}
+
+.error {
+  color: orangered;
+  font-size: 80%;
+  border: none;
 }
