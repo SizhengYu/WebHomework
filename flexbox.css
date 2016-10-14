@@ -154,8 +154,11 @@ section p, h3 {
 }
 
 .form-section {
-  overflow: auto;
   background: white;
+}
+
+.form-section p {
+  text-align: left;
 }
 
 #submitted {
